@@ -382,7 +382,14 @@ margin-right: 0px;
 footer {
     background-color: var(--background-color-footer);
 }
-
+footer .container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
 .logo2 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -391,8 +398,17 @@ footer {
     line-height: 1.3;
     letter-spacing: 0.03em;
     text-decoration: none;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: block;
+   
 }
-
+.footerlist{
+    padding-bottom: 9px;
+}
+.footerlist:last-child{
+    padding-bottom: 60px;
+}
 .logopart1 {
     color: var(--accent-color);
 }
@@ -403,6 +419,7 @@ footer {
 
 .addresslist {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .addresslink1 {
