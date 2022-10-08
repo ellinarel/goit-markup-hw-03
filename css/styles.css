@@ -243,7 +243,8 @@ margin-right: 0px;
     color: var(--tittle-text-color);
     text-transform: uppercase;
     margin-block-start: 0;
-        margin-block-end: 0;
+    margin-block-end: 0;
+    margin-bottom:10px;
 
 }
 
